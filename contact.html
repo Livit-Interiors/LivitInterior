@@ -12,15 +12,21 @@
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-<title>Bauhaus - Architecture & Interior HTML Template</title> 
+<title>Livit Interiors</title> 
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("4m9XfperC4KpkkNFe");
+  })();
+</script>
 </head>
 <body>
-<div class="animsition">  
-  <div class="wrapper boxed">
+  <div class="animsition">
 
     <!-- Content CLick Capture-->
 
@@ -30,30 +36,40 @@
 
     <div class="menu"> 
       <span class="close-menu icon-cross2 right-boxed"></span>
-      <div class="menu-lang right-boxed">
+      <!--<div class="menu-lang right-boxed">
         <a href="" class="active">Eng</a>
         <a href="">Fra</a>
         <a href="">Ger</a>
-      </div>
+      </div>-->
       <ul class="menu-list right-boxed">
-        <li>
+        <li class="active">
           <a  href="index.html">Home</a>
-          <ul>
+          <!--<ul>
             <li><a href="index.html">Classic</a></li>
-            <li><a href="home-fullpage.html">Full page</a></li>
+            <li class="active"><a href="home-fullpage.html">Full page</a></li>
             <li><a href="../dark/index.html">Dark</a></li>
-          </ul>
+          </ul>-->
         </li>
         <li>
-          <a href="works.html">Works</a>
-          <ul>
+          <a href="about.html">About Us</a>
+          <!--<ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>-->
+        </li>
+        <li>
+          <a href="works-masonry.html">Work Gallery</a>
+          <!--<ul>
             <li><a href="works-grid.html">Grid</a></li>
             <li><a href="works-masonry.html">Masonry</a></li>
             <li><a href="works-carousel.html">Carousel</a></li>
             <li><a href="project-detail.html">Project Detail</a></li>
-          </ul>
+          </ul>-->
         </li>
         <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+        <!--<li>
           <a href="#">News</a>
           <ul>
             <li><a href="news-grid.html">Grid</a></li>
@@ -69,24 +85,17 @@
             <li><a href="post-video.html">Video</a></li>
             <li><a href="post-right-sidebar.html">Right Sidebar</a></li>
           </ul>
-        </li>
-        <li class="active">
-          <a href="#">Pages</a>
-          <ul>
-            <li><a href="about.html">About</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-          </ul>
-        </li>
+        </li>-->
       </ul>
       <div class="menu-footer right-boxed">
         <div class="social-list">
-          <a href="" class="icon ion-social-twitter"></a>
-          <a href="" class="icon ion-social-facebook"></a>
-          <a href="" class="icon ion-social-googleplus"></a>
-          <a href="" class="icon ion-social-linkedin"></a>
-          <a href="" class="icon ion-social-dribbble-outline"></a>
+          <a href="https://www.instagram.com/livitinteriors/" class="icon ion-social-instagram"></a>
+          <!--<a href="" class="icon ion-social-facebook"></a>
+          <a href="" class="icon ion-social-googleplus"></a>-->
+          <a href="https://www.linkedin.com/company/livitinteriors/" class="icon ion-social-linkedin"></a>
+          <!--<a href="" class="icon ion-social-dribbble-outline"></a>-->
         </div>
-        <div class="copy">© Bauhaus 2017. All Rights Reseverd<br> Design by LoganCee</div>
+        <div class="copy">© AgrowIT. All Rights Reseverd<br> </div>
       </div>
     </div>
 
@@ -102,27 +111,29 @@
       <a class="brand" href="#">
         <img alt="" src="images/brand.png">
         <div class="brand-info">
-          <div class="brand-name">bauhaus</div>
-          <div class="brand-text">architecture</div>
+          <div class="brand-name">Livit</div>
+          <div class="brand-text">Interiors</div>
         </div>
       </a>
 
       <div class="social-list hidden-xs">
-        <a href="" class="icon ion-social-twitter"></a>
-        <a href="" class="icon ion-social-facebook"></a>
-        <a href="" class="icon ion-social-googleplus"></a>
-        <a href="" class="icon ion-social-linkedin"></a>
-        <a href="" class="icon ion-social-dribbble-outline"></a>
+        <a href="https://www.instagram.com/livitinteriors/" class="icon ion-social-instagram"></a>
+        <!--<a href="" class="icon ion-social-facebook"></a>
+        <a href="" class="icon ion-social-googleplus"></a>-->
+        <a href="https://www.linkedin.com/company/livitinteriors/" class="icon ion-social-linkedin"></a>
+        <!--<a href="" class="icon ion-social-dribbble-outline"></a>-->
       </div>
 
       <div class="navbar-spacer hidden-sm hidden-xs"></div>
 
-      <address class="navbar-address hidden-sm hidden-xs">call us: <span class="text-dark">(+080) 9684 32 45 789</span></address>
+      
+
+      <!--<address class="navbar-address hidden-sm hidden-xs">call us: <span class="text-dark">(+91) 81295 32229</span></address>-->
     </header>
     
     <!-- Pageheader -->
     
-    <main class="page-header-3">
+    <!--<main class="page-header-3">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -131,10 +142,9 @@
           <div class="col-md-8 col-lg-6"><h1>Enjoy Coffee With Us</h1></div>
         </div>
       </div>
-    </main>
+    </main>-->
 
     <div class="content">
-      <div id="map" class="map"></div>
       <div class="page-inner">
         <section>
           <div class="container">
@@ -142,23 +152,23 @@
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title">Keep in touch</div>
+                  <div class="info-title">Contact Us</div>
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="row-contact row">
                   <div class="col-contact col-lg-6">
-                    <h3 class="contact-title contact-top">Melbourne, <span>Australia</span></h3>
-                    <p class="contact-address text-muted"><strong>269 King Str, 05th Floor, Utral Hosue Building, Melbourne, VIC 3000, Australia.</strong></p>
-                    <p class="contact-row"><strong class="text-dark">Email:</strong> infor@bauhaus.co</p>
-                    <p class="contact-row"><strong class="text-dark">Skype:</strong>  bauhaus.arc</p>
+                    <h3 class="contact-title contact-top">Livit Interiors <span></span></h3>
+                    <p class="contact-address text-muted"><strong>Father Manuel Rd, Kathrikadavu, Kaloor, Ernakulam, Kerala</strong></p>
+                    <p class="contact-row"><strong class="text-dark">Email:</strong> Id@livitinteriors.com</p>
+                    <!--<p class="contact-row"><strong class="text-dark">Skype:</strong>  bauhaus.arc</p>-->
                   </div>
                   <div class="col-contact col-lg-6">
                     <p class="contact-top"><strong class="text-muted">Call directly:</strong></p>
-                    <p class="phone-lg text-dark">+99 (0) 344 956 4050</p>
-                    <p class="text-muted"><strong class="text-dark">Work Hours</strong><br>
+                    <p class="phone-lg text-dark">+91 812 953 2229</p>
+                    <!--<p class="text-muted"><strong class="text-dark">Work Hours</strong><br>
                      Monday - Friday : 08h00 - 17h30<br>
-                    Saturday: 08h00 - 12h00, Sunday off work</p>
+                    Saturday: 08h00 - 12h00, Sunday off work</p
                     <div class="text-muted"><strong class="text-dark">Follow us</strong><br>
                       <div class="contact-social social-list">
                         <a href="" class="icon ion-social-twitter"></a>
@@ -167,7 +177,7 @@
                         <a href="" class="icon ion-social-linkedin"></a>
                         <a href="" class="icon ion-social-dribbble-outline"></a>
                       </div>
-                    </div>
+                    </div>-->
                   </div>
                 </div>
               </div>
@@ -180,28 +190,28 @@
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title">You need help</div>
+                  <div class="info-title">Message Us</div>
                 </div>
               </div>
               <div class="col-md-9">
                 <form class="js-form">
                   <div class="row">
                     <div class="form-group col-sm-6 col-lg-4">
-                      <input class="input-gray" type="text" name="name" required placeholder="Name*">
+                      <input class="input-gray" type="text" name="name" id="name" required placeholder="Name*">
                     </div>
                     <div class="form-group col-sm-6 col-lg-4">
-                      <input class="input-gray" type="email" name="email" placeholder="Email">
+                      <input class="input-gray" type="email" name="mail" id="mail" placeholder="Email">
                     </div>
                     <div class="form-group col-sm-12 col-lg-4">
-                      <input class="input-gray" type="text" name="subject" placeholder="Subject (Optinal)">
+                      <input class="input-gray" type="tel" name="phone" id="phone" placeholder="Phone Number">
                     </div>
                     <div class="form-group col-sm-12">
-                      <textarea class="input-gray" name="message"  required  placeholder="Message*"></textarea>
+                      <textarea class="input-gray" name="message" id="message" required  placeholder="Message"></textarea>
                     </div>
-                    <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn">Send Message</button></div>
+                    <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn" onClick="sendMail()">Send Message</button></div>
                   </div>
-                  <div class="success-message"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
-                  <div class="error-message">We're sorry, but something went wrong</div>
+                  <!--<div class="success-message"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
+                  <div class="error-message">We're sorry, but something went wrong</div>-->
                 </form>
               </div>
             </div>
@@ -212,57 +222,15 @@
 
     <!-- Footer -->
 
-    <footer id="footer" class="footer section"> 
-      <div class="footer-flex">
-        <div class="flex-item">
-          <a class="brand pull-left" href="#">
-            <img alt="" src="images/brand.png">
-            <div class="brand-info">
-              <div class="brand-name">bauhaus</div>
-              <div class="brand-text">architecture</div>
-            </div>
-          </a>
+    <footer id="footer" class="footer section" style="text-align: center;"> 
+      <div class="footer-flex" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <div class="flex-item" style="flex: 1 1 auto; margin: 10px;">
+          <div class="inline-block">© AgrowIT<br>All Rights Reserved.</div>
         </div>
-        <div class="flex-item">
-          <div class="inline-block">© Bauhaus 2017<br>All Rights Resevered</div>
-        </div>
-        <div class="flex-item">
-          <ul>
-            <li><a href="">Site Map</a></li>
-            <li><a href="">Term & Conditions</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Help</a></li>
-            <li><a href="">Affiliatep</a></li>
-          </ul> 
-        </div>
-        <div class="flex-item">
-          <ul>
-            <li><a href="">Our Location</a></li>
-            <li><a href="">Career</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-          </ul> 
-        </div>
-        <div class="flex-item">
-          <ul>
-            <li class="active"><a href="">ENG</a></li>
-            <li><a href="">FRA</a></li>
-            <li><a href="">GER</a></li>
-          </ul> 
-        </div>
-        <div class="flex-item">
-          <div class="social-list">
-            <a href="" class="icon ion-social-twitter"></a>
-            <a href="" class="icon ion-social-facebook"></a>
-            <a href="" class="icon ion-social-googleplus"></a>
-            <a href="" class="icon ion-social-linkedin"></a>
-            <a href="" class="icon ion-social-dribbble-outline"></a>
-          </div>
-        </div>
+        <!-- Other flex items can be uncommented and styled similarly -->
       </div>
     </footer>
-  </div>
-</div>
+    
 
 <!-- jQuery -->
 
@@ -301,5 +269,41 @@
 <!-- Scripts -->
 <script src="js/scripts.js"></script> 
 <script src="js/rev-slider-init.js"></script>
+<script type="text/javascript">
+  function sendMail() {
+    console.log("working");
+
+    var params = {
+      name: document.getElementById("name").value,
+      mail: document.getElementById("mail").value,
+      phone: document.getElementById("phone").value,
+      message: document.getElementById("message").value,
+    };
+
+    emailjs.send("service_ap6ckod", "template_0f44ljb", params)
+      .then(function (res) {
+        alert("Successfully Sent!");
+      })
+      .catch(function (error) {
+        alert("Form not working due to maintenance: " + error);
+      });
+  }
+</script>
+<!--<script>
+  document.getElementById('js-Form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    sendMail(); // Call the sendMail function
+
+    // Refresh the form after submission
+    setTimeout(function() {
+      document.getElementById('contactForm').reset(); // Reset the form fields
+    }, 1000); // Adjust the delay as needed
+
+    setTimeout(function() {
+      location.reload(); // Reload the page
+    }, 1500); // Adjust the delay as needed
+  });
+</script>-->
+
 </body>
 </html>

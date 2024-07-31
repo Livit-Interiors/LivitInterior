@@ -2621,7 +2621,7 @@ a.brand:focus{
 }
 
 .project-item:hover .project-hover-2{
-  background-color: rgba(206,224,2,0.85);
+  background-color: #ed2024;
 }
 
 .project-item:hover .project-hover-2 .project-title,
@@ -3449,7 +3449,7 @@ a.brand:focus{
 }
 
 .team-social a:hover{
-  color: #fff;
+  color: #ed2024 ;
   text-decoration: none;
 }
 
