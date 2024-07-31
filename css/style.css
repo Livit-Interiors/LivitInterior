@@ -2300,12 +2300,14 @@ a.brand:focus{
 
 .review-carousel .text{
   font-family: 'Libre Baskerville', serif;
+  color: #fff;
   font-size: 1.142rem;
   line-height: 1.875;
 }
 
 .review-author{
   margin-top: 5.7rem;
+  color: #fff;
 }
 
 .author-name{
